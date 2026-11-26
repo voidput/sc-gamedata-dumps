@@ -1,208 +1,214 @@
 {
-  "build": "5.0.202.35026",
-  "channel": "PTU",
-  "patch": "5.0.0",
-  "branch": "sc-alpha-5.0.0",
+  "build": "4.10.201.48085",
+  "channel": "LIVE",
+  "patch": "4.10.0",
+  "branch": "sc-alpha-4.10.0",
   "extractor": {
-    "commit": "b9e3700d0215ee1857a22baff9efe76ab5ffce02"
+    "commit": "7886d614f420c4007f33b018e08167b967d41147"
   },
   "files": [
     {
       "name": "data/game-ammo.json",
-      "sha256": "1e150b552eaa5a8d35ed0dbf76a766eea80e0aef87c294f242b5db881ff3bcf6",
-      "bytes": 94417,
+      "sha256": "f198c859e7e41eb2dec8e6e5919cb381ef6d953fff42411af993f395081155b1",
+      "bytes": 130211,
       "schema": "game-ammo@1"
     },
     {
       "name": "data/game-armor.json",
-      "sha256": "0007f7eb6f27c229cfb6f7a4b01a0b9764ebc85c1d526e69ebae86b0a9a304a4",
-      "bytes": 2302361,
+      "sha256": "b2a837eedb568b9b3f6e4b2d5270ada432ac041df4f1bc2fd1cd731d2fd1c69c",
+      "bytes": 2115994,
       "schema": "game-armor@1"
     },
     {
       "name": "data/game-attributes.json",
-      "sha256": "73f12fbdf538debd782db3ed9cc7867d7aa3ff4b0b5ea9c2bb7e93073abab8a3",
-      "bytes": 71869,
+      "sha256": "8781d8a5f5a105467a106a05fb04fd847a7bd446af3dc08ce8a1d51018f0b223",
+      "bytes": 76700,
       "schema": "game-attributes@1"
     },
     {
       "name": "data/game-blueprints.json",
-      "sha256": "8c59650ca9723f2f705c44c6fd9d31b4e0413d86e10986c61c2dcd9a908c0f8b",
-      "bytes": 3340035,
+      "sha256": "75774cc469e8314d35473142a4ec78d2ff23d5e42eb4cb48c25ef3c69c0a8349",
+      "bytes": 3269568,
       "schema": "game-blueprints@1"
     },
     {
       "name": "data/game-cargo.json",
-      "sha256": "c11beadeacc55785a839d65794b948cf3f4963f49cad5706e56ea7b969ffd628",
-      "bytes": 52442,
+      "sha256": "2d803f8e52d8b766bcee284ea337cf71c5b2ae44da09bd6a8c91ec2e46d021b2",
+      "bytes": 52441,
       "schema": "game-cargo@1"
     },
     {
       "name": "data/game-commodities.json",
-      "sha256": "48a5274e912793f58e84585b78839e2b39210c367815c821769da5a8d99ca09d",
-      "bytes": 202983,
+      "sha256": "9cbe1ad3c843f79cd47c385034bba5084092c792e2db5b73599390fbcf396903",
+      "bytes": 503355,
       "schema": "game-commodities@1"
     },
     {
       "name": "data/game-consumables.json",
-      "sha256": "750104ebd2d891a72ee1f024ca69a31e97ef590c1518c408677632375b8740ed",
-      "bytes": 118104,
+      "sha256": "4db76c4f082060e701d07407e90a15fcc78107008c5db8602cab228cdf3a4c10",
+      "bytes": 118105,
       "schema": "game-consumables@1"
     },
     {
       "name": "data/game-containers.json",
-      "sha256": "b4ec9306c5735e15731dc2b737411026070a05f355508566251d7c07e494444f",
-      "bytes": 164968,
+      "sha256": "02577e27d731b8caf8945ac17c371499be277c48810af85c8b114cdfc4eee29a",
+      "bytes": 165712,
       "schema": "game-containers@1"
     },
     {
       "name": "data/game-fire.json",
-      "sha256": "f1be35392effa8aade0631182d62babbb3cad51f34ec7ab538ea3ddcbd65a472",
-      "bytes": 402239,
+      "sha256": "563fe44c1a80a16adc8c76b876b735288e9988824bffe0fabdc55ad530938aee",
+      "bytes": 393596,
       "schema": "game-fire@1"
     },
     {
       "name": "data/game-fps-weapons.json",
-      "sha256": "e2d72f512ce6e31de3f7296ba6f79eca7ec88ea8e6a6013696d740b37d373902",
-      "bytes": 115333,
+      "sha256": "9d0d91ae0cef05ded1746d65bfd785bc79d090bf63cbb99eb4e94aafea2589f5",
+      "bytes": 113166,
       "schema": "game-fps-weapons@1"
     },
     {
       "name": "data/game-item-obtain.json",
-      "sha256": "303f479f16051dda58c97fac5ec20984a50596907ac978afbd4a7d114f361b81",
-      "bytes": 2841521,
+      "sha256": "e825a87c402e0135b578ccae50c04de8025924a3c3f032517990dca9ccfba531",
+      "bytes": 2202735,
       "schema": "game-item-obtain@1"
     },
     {
       "name": "data/game-item-sources.json",
-      "sha256": "935b572297ce681cabb570b6c0e3b0e312ab05b27399ed20492b626050572703",
-      "bytes": 2931190,
+      "sha256": "3e19babfaba63b05cd7ce0ea59b66b70ae2c4364354c5eac6ca646686d248f69",
+      "bytes": 1434376,
       "schema": "game-item-sources@1"
     },
     {
       "name": "data/game-item-tags.json",
-      "sha256": "e09bd8268cfaf7fdbd85a2a3efe348e77e044681a99c2f64f6435183a50887b5",
-      "bytes": 5694520,
+      "sha256": "eaac55366000b654c2d31a057133fc6ffab78a9461a19fe0932bf89c4b31f9f7",
+      "bytes": 6041190,
       "schema": "game-item-tags@1"
     },
     {
       "name": "data/game-keybinds.json",
-      "sha256": "3c1f3c1ecd362ec2ca0444133c904ca83637cf3c578db30e6bd272b975f6d1aa",
-      "bytes": 391101,
+      "sha256": "3de142ac88891b44fa3654496b4ed21e9a3159facef87a871a0cb98bf9f3c539",
+      "bytes": 394136,
       "schema": "game-keybinds@1"
     },
     {
       "name": "data/game-law.json",
-      "sha256": "bd3a329e05a33b1fdf53643954b9e4f1f73a826143a86e354e876f4c450605ac",
-      "bytes": 23933,
+      "sha256": "a2e48bb301539009f270f9afa6a54325a30cf1e009c8f4461225bb39f3a379e5",
+      "bytes": 23934,
       "schema": "game-law@1"
     },
     {
       "name": "data/game-loot.json",
-      "sha256": "ff59a4167de584d0e2cadf744506a4282d8189ff65ddd3cfcb5d440ef0aaf9b1",
-      "bytes": 400634,
+      "sha256": "9795ae3a40fcca30a5c38f460485be5b0e3be8b70bc8f9341f9564748de3f756",
+      "bytes": 407577,
       "schema": "game-loot@1"
     },
     {
       "name": "data/game-manufacturers.json",
-      "sha256": "50228b3f3ec17e8557013c24730fd5d5bac34101a73691b1e0df3abed9c96465",
-      "bytes": 29949,
+      "sha256": "1b4679dd1f0414a391f646aa1913cac208f3f089bcfd07241576daec7989f9bc",
+      "bytes": 32502,
       "schema": "game-manufacturers@1"
     },
     {
       "name": "data/game-mining-spawns.json",
-      "sha256": "4b7976dc244ad51c2e57f3aed52a5887009b5015b2a713b5eb34e29b2e484f94",
-      "bytes": 865361,
+      "sha256": "4ecfd339e696f3fe5733468238b479b9409151092effd9c7f97b970b0ecbf8c1",
+      "bytes": 856336,
       "schema": "game-mining-spawns@1"
     },
     {
       "name": "data/game-mining.json",
-      "sha256": "58e2feaf39aa5ab6e6dbcdee8a28ca51ad4f16bf8314e1b0e26d85ce86a327c7",
-      "bytes": 23846,
+      "sha256": "0c4c972b3e1afb6b74f201a7961f4f4c794f45f74eb73e5c294f2211515d37d4",
+      "bytes": 23847,
       "schema": "game-mining@1"
     },
     {
       "name": "data/game-missions.json",
-      "sha256": "0d0929ae8d83603fe18b0dd5d14a58e0f9f9f5a8c12f1926b67e18218642b216",
-      "bytes": 1198084,
+      "sha256": "e490ad7522c2f0701c0cc73b7789bfec27e308003f30899adadff817bf21da85",
+      "bytes": 2043667,
       "schema": "game-missions@1"
     },
     {
       "name": "data/game-npc-loadouts.json",
-      "sha256": "7c38292e7e631f260b15ce46b5333ecec82518dd7ac68e760ab374212df9efcf",
-      "bytes": 3424188,
+      "sha256": "77fd5be624791292b616912eba4c45faab5fd7fa47b767fd1a840ba92a154947",
+      "bytes": 2673263,
       "schema": "game-npc-loadouts@1"
     },
     {
       "name": "data/game-quantum.json",
-      "sha256": "6086211f9026978251804cead60b4d6b63eba2a25c607fac026640a7296cf13e",
-      "bytes": 468,
+      "sha256": "a2fe974f302acd76fd21d9d21e54ddce6ed4c239d72261f2f3678f8b683b6307",
+      "bytes": 469,
       "schema": "game-quantum@1"
     },
     {
       "name": "data/game-refining.json",
-      "sha256": "653160296f6d11bbd32308911ac690fb48cb12878f2d2156182aa2d3e80c81de",
-      "bytes": 9286,
+      "sha256": "efc3c098a66bbd5cb67cdc3b16531ddfb7bc6b55799c03e5ce461c1a3976f891",
+      "bytes": 13838,
       "schema": "game-refining@1"
     },
     {
       "name": "data/game-reputation.json",
-      "sha256": "6c92ea5b109831edc003e0da0ee4624b1c41169b21eacc68adf870636560b6ee",
-      "bytes": 196555,
+      "sha256": "ef39ab636861cdad54e6a8d3bb21aecbb694d6667456f5fc2885620f6b630927",
+      "bytes": 196552,
       "schema": "game-reputation@1"
     },
     {
       "name": "data/game-salvage.json",
-      "sha256": "e3fc40338618d97e0c41d1008486de236fce0173e952ffc7779fae98ddf6b4ed",
-      "bytes": 444,
+      "sha256": "3e08163c1e16792b90325004f1f22b925ea3dac6147fabf0be6237c12d4f2dce",
+      "bytes": 2121,
       "schema": "game-salvage@1"
     },
     {
       "name": "data/game-search-index.json",
-      "sha256": "46d0fff4eca8c4915c3af91420b85ec61364070cde5450c548c3ee112f8b4d85",
-      "bytes": 909847,
+      "sha256": "3448d1b4ba9dba5cfb62aed57955799b845e29c99771c10dc354528c33dd118f",
+      "bytes": 1422469,
       "schema": "game-search-index@1"
     },
     {
       "name": "data/game-ship-components.json",
-      "sha256": "daa32b6c8229bd8c0a43834847e151ed4cb92f7533f66117db2eae359cbf8039",
-      "bytes": 2302923,
+      "sha256": "2a66bd0342d09196f2ee3667dc68399f9bc164a1a70a8df98c989614c9d3677a",
+      "bytes": 3331865,
       "schema": "game-ship-components@1"
     },
     {
       "name": "data/game-ships.json",
-      "sha256": "181406fdf863f1c4cea2a64e71b6c3d1e1bf3a6a2fb2dd56573919fcb71e2a84",
-      "bytes": 3528886,
+      "sha256": "22cc5eb452a0c7464e5c5ced2d0b074abf301ac7b4467bb3fda71eb4e452e2d5",
+      "bytes": 4098126,
       "schema": "game-ships@1"
     },
     {
       "name": "data/game-shops.json",
-      "sha256": "3c71607d8fd8731a211423d122e6e9ac31d4c926b8cfcfb248c85356c8514bac",
-      "bytes": 3973,
+      "sha256": "4fe7b36d044a3915db4e8eba3e8dbfcf4977f396b0411e1ee043d427649f67f0",
+      "bytes": 3974,
       "schema": "game-shops@1"
     },
     {
       "name": "data/game-starmap.json",
-      "sha256": "71ad7a28790bf6fa0e24269eb2a769a8534f2804ada607128fcc416efd69dc47",
-      "bytes": 1160889,
+      "sha256": "93804a19c4b4249df8019279cedd35d5089d59f15b63257a98461e6755ab6e55",
+      "bytes": 1160149,
       "schema": "game-starmap@1"
     },
     {
       "name": "data/game-strings-english.json",
-      "sha256": "a27b610cad366d90f15272912acd170ac1aaf377fd9e1ca96f883408eef39f45",
-      "bytes": 899568,
+      "sha256": "527ec726032cd83ac7981bc00c8c034262895bc9f50c145d42c7fbbefeb3a772",
+      "bytes": 851569,
       "schema": "game-strings-english@1"
     },
     {
+      "name": "data/game-tag-index.json",
+      "sha256": "bc311de024cebf900e8f788e1c1024e2653c1cca0e6f90d0925d04d7a2883c23",
+      "bytes": 1052502,
+      "schema": "game-tag-index@1"
+    },
+    {
       "name": "data/game-weapons.json",
-      "sha256": "0a59ea1559aa0bd1b6b05cf0530d390663ca518924966fec7e0b5b99cd8a0f08",
-      "bytes": 999257,
+      "sha256": "8104f792d528985cd7476cc91b43ea3cf4926772bbb2ccea063a22ff8b51fdc6",
+      "bytes": 1131305,
       "schema": "game-weapons@1"
     },
     {
       "name": "data/game-wikelo-trades.json",
-      "sha256": "76acacb408bc170b666dcae4d224a30a189203b81be19f641529912f7d83039a",
-      "bytes": 40825,
+      "sha256": "e1165ecbc3bfe688fedd7b40eec868c1a91db268de46b0de5ba3574e40ff2adf",
+      "bytes": 45777,
       "schema": "game-wikelo-trades@1"
     }
   ]
